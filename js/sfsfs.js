@@ -164,3 +164,21 @@
 // console.log(classifyProductType("Одяг")); 
 // console.log(classifyProductType("Продукти харчування")); 
 // console.log(classifyProductType("stilettos")); 
+
+
+// ====================================================IF...ELSE===================================================
+
+
+// function isEven(number) {
+//     if (number % 2 === 0) {
+//         return "Парне";
+//     } else {
+//         return "Непарне"
+//     }
+// }
+
+
+console.log(getName(45));
+console.log(getName(1));
+console.log(getName(2));
+console.log(getName(0));
