@@ -178,7 +178,22 @@
 // }
 
 
-console.log(getName(45));
-console.log(getName(1));
-console.log(getName(2));
-console.log(getName(0));
+// console.log(getName(45));
+// console.log(getName(1));
+// console.log(getName(2));
+// console.log(getName(0));
+
+// let index = 1;
+// let name1 = prompt(`Vvedite imya ${index}`);
+// console.log(`${index} ${name1}`)
+
+// index++
+// let name2 = prompt(`Vvedite imya ${index}`);
+// console.log(`${index} ${name2}`)
+
+for (index = 1; index <= 5; index++) {
+    let name = prompt(`Введите число ${index}`)
+    console.log(`${index} ${name}`)
+}
+
+
